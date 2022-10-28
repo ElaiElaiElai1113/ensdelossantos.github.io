@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital,wght@0,300;0,600;1,400;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(images/937962-video-game-art-Fugue-in-Void-video-games-screen-shot.png);
+    background-size: cover;
+}
+/* ------------NAVBAR-------------- */
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #839788;
+    
+}
+
+nav .navbar {
+    height: 100%;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2)
+}
+nav .navbar .logo a {
+    font-weight: 600;
+    color: #EEE0CB;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav .navbar .nav-links {
+
+    height: 100%;
+    line-height: 70px;
+}
+
+nav .navbar .nav-links .links {
+    display: flex;
+}
+
+nav .navbar .nav-links .links li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 14px;
+    transition: all 0.3s ease;
+}
+
+nav .navbar .nav-links .links li a {
+    color: #EEE0CB;
+    text-decoration: none;
+    white-space: nowrap;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+nav .navbar .nav-links .links li a:hover {
+    color: black;
+}
+
+nav .navbar .nav-links .links li .arrow {
+    height: 100%;
+    text-align: center;
+    width: 22px;
+    color: white;
+    line-height: 70px;
+    transitiON: all 0.3s ease;
+}
+
+
+
+nav .navbar .nav-links .links li:hover .htmlcss-arrow,
+nav .navbar .nav-links .links li:hover .js-arrow{
+    transform: rotate(180deg);
+    color: black;
+}
+
+nav .navbar .nav-links .links .sub-menu {
+    positioN: absolute;
+    left: 0;
+    top: 60px;
+    background: #937962;
+    line-height: 40px;
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    display: none;
+    border-top: 3px solid #e91e63;
+
+}
+
+
+
+nav .navbar .nav-links .links .sub-menu li {
+    padding: 0 25px;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 16px;
+}
+
+nav .navbar .nav-links .links .sub-menu li a {
+    font-size: 14px;
+    font: 600;
+    
+}
+
+nav .navbar .nav-links .links li:hover .htmlCss-sub-menu,
+nav .navbar .nav-links .links li:hover .js-sub-menu{
+    display: block;
+}
+/* ------------NAVBAR-------------- */
+
+
+/* -----------------content----------------- */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 1rem;;
+    border: 2px solid #937962;
+    margin: 1em;
+}
+
+
+.header .text {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    color: white;
+}
+
+.header .sub-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    color: white;
+}
+
+
+.intro-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 2px solid #937962;
+    border-radius: 25%;
+}
+
+.content {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.assignments {
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.assignments a{
+    box-shadow: insert 0 0 0 0 #839788;
+    text-decoration: none;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .9s ease-in-out, box-shadow .9s ease-in-out;
+    
+}
+
+.assignments a:hover {
+    color: #EEE0CB;
+    box-shadow: inset 200px 0 0 0 #839788;
+}
+
+
+
+
+/* ---------------------conversion----------------------- */
+
+.container-conversion {
+    width: 500px;
+    height: 250px;
+    background: #839788;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 2px 1px #2e4233;
+    
+}
+
+.conversion {
+    text-align: center;
+    margin: 13px 0px;
+    color: #EEE0CB;
+}
+
+.input-conversion {
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+#input {
+    margin-top: 2em;
+    margin-left: 6em;
+}
+#inputType, #resultType {
+    width: 130px;
+    margin-left: 7em; 
+    text-align: center;
+
+}
+
+#resultType {
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+/* ---------------------TAX----------------------- */
+
+.input-incometax {
+    width: 250px;
+    margin-left: 9em;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+
+.income-tax-compute {
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -20px;
+    
+}
+
+#n1 {
+    margin-left: 155px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+
+}
+#answ {
+    margin-left: 155px;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+.button-tax {
+    widtH: 150px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+/* ---------------------TAX----------------------- */
+
+
+/* ---------------------FAC,SUM,AVE----------------------- */
+
+#facsumav, #facsumav-result{
+    width: 150px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.button-average, .button-factorial, .button-sum {
+    width: 80px;
+    text-align: center;
+}
+
+.button-factorial {
+    margin-left: 130px;
+    height: 25px;
+}
+
+
+/* ---------------------FAC,SUM,AVE----------------------- */
+
+
