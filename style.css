@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital,wght@0,300;0,600;1,400;1,500&display=swap');
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -132,6 +133,8 @@ nav .navbar .nav-links .links li:hover .js-sub-menu{
     padding: 1rem;;
     border: 2px solid #937962;
     margin: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 
@@ -291,5 +294,71 @@ nav .navbar .nav-links .links li:hover .js-sub-menu{
 
 
 /* ---------------------FAC,SUM,AVE----------------------- */
+
+
+/* /* ------------------------Payroll--------------------------- */
+.container-payroll {
+    width: 90%;
+    height: 90%;
+    background: #BFD7EA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 2px 1px #2e4233;
+    margin-top: 80px;
+    
+}
+
+.header-payroll {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header2-payroll {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 90px;
+}
+.table-payroll {    
+    margin-left: 16em;
+    margin-top: -23em;
+    border-spacing: 5em 0px;
+    padding: 12px;
+    position: relative;
+}
+th, tbody{
+    border: 1px solid black;
+}
+
+.input-info {
+    margin-top: -12px;
+    width: 180px;
+    margin-bottoM: 20px;
+    margin-left: 40px;
+    border: none;
+    border-bottom: 0.125px solid rgb(10, 10, 10);
+
+}
+
+.input-index {
+    margin-top: -12px;
+    width: 180px;
+    margin-bottoM: 20px;
+    margin-left: 40px;
+    border: none;
+    border-bottom: 0.125px solid rgb(10, 10, 10);
+
+}
+
+
+
+.button-1 {
+    width: 90px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
 
 

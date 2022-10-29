@@ -129,5 +129,3 @@ document.getElementById("facsumav-result").value = x/y;
 
 
 
-
-
